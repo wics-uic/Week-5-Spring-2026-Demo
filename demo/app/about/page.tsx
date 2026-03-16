@@ -10,6 +10,12 @@ export default function About() {
                 text="I am currently studying at the University of Illinois Chicago, working towards my degree and exploring various software engineering concepts."
             />
             {/* TODO 1: Add another EducationCard here passing in "uiuclogo.webp" and other information as props  */}
+            <EducationCard 
+            imageSrc="/uiuclogo.webp"
+            title="University of Illinois Chicago"
+            text="I am curr"
+            studentbody = {1000}
+            />
         </div>
     );
 }
